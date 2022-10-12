@@ -1,5 +1,10 @@
 # mall-mogujie
 
+## 项目说明
+
+[详细说明文档](./%E9%A1%B9%E7%9B%AE%E8%AF%B4%E6%98%8E.md)
+
+
 ## 技术栈
 
 - vue2
@@ -18,8 +23,14 @@
 ## 启动
 
 克隆项目
+
+```
+git clone https://github.com/xu-ux/mall-mogujie.git
 ```
 
+安装
+
+```
 npm install
 ```
 
