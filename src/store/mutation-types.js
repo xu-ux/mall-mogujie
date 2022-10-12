@@ -1,0 +1,11 @@
+export const ADD_CART = 'ADD_CART'
+
+export const ADD_CART_ASYNC = 'ADD_CART_ASYNC'
+
+export const UPDATE_CART_NUM = 'UPDATE_CART_NUM'
+
+export const UPDATE_CART_CHECKED = 'UPDATE_CART_CHECKED'
+
+export const UPDATE_CART_CHECKED_ALL = 'UPDATE_CART_CHECKED_ALL'
+
+export const DELETE_CART = 'DELETE_CART'

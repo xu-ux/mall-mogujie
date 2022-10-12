@@ -1,0 +1,33 @@
+{
+  "name": "mall-mogujie",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve --mode dev",
+    "test": "vue-cli-service serve --mode test",
+    "build:dev": "vue-cli-service build --mode dev",
+    "build:test": "vue-cli-service build --mode test",
+    "build:prod": "vue-cli-service build --mode prod",
+    "serve": "vue-cli-service serve"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "better-scroll": "^2.4.2",
+    "core-js": "^3.8.3",
+    "swiper": "^5.4.5",
+    "vue": "^2.6.14",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-lazyload": "^1.2.6",
+    "vue-router": "^3.5.1",
+    "vue-scroller": "^2.2.4",
+    "vue-virtual-scroller": "^1.0.10",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.0",
+    "@vue/cli-service": "^5.0.0",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
