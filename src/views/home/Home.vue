@@ -237,12 +237,12 @@ export default {
 
                     // 如果数据还有很多，则表示可以继续上拉获取
                     if (list.length > 0) {
-                        this.$refs.myscroller.$refs.vscroller.finishInfinite(false)
+                        this.$refs.myscroller.finishInfinite(false)
                     } else {
                         // 当参数为true，上拉获取数据回调函数停止使用,下拉下部不再显示loading，会显示 暂无更多数据
-                        this.$refs.myscroller.$refs.vscroller.finishInfinite(true)
+                        this.$refs.myscroller.finishInfinite(true)
                     }
-                    done();
+                    // done(); // 这里一定要取消掉，否则上面调用finishInfinite的逻辑将失效
 
                 })
             }, 500);
