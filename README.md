@@ -4,6 +4,7 @@
 
 [详细说明文档](./%E9%A1%B9%E7%9B%AE%E8%AF%B4%E6%98%8E.md)
 
+演示地址：https://xu-ux.github.io/mall-mogujie/
 
 ## 技术栈
 
