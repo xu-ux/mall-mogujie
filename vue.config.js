@@ -1,5 +1,6 @@
 module.exports = {
   transpileDependencies: true,
+  publicPath: '/mall-mogujie',
   configureWebpack: {
     resolve: {
       extensions: ['.js', '.vue', '.json', 'css' ,'scss'],
