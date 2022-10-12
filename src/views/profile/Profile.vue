@@ -15,9 +15,10 @@
                 
                 <p>coderwhy老师的vue2课程还是很不错的，循序渐进，讲的很基础！</p>
                 <p>总算是完成了这个项目，项目没有什么复杂的逻辑，还是比较好搞定的。</p>
+                <p>Github：https://github.com/xu-ux/mall-mogujie</p>
                 <p>附上接口文档:
                     <a href="https://www.apifox.cn/apidoc/shared-bc1061c9-d155-4efa-9c15-ce073d590740" target="_bank">地址</a></p>
-                    <p>访问密码: 9KhuOEFe</p>   
+                    <p>访问密码: 9KhuOEFe</p>  
             </div>
             
             
