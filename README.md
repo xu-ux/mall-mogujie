@@ -22,10 +22,10 @@
 
 ## 启动
 
-克隆项目
+克隆项目(dev分支即可)
 
 ```
-git clone https://github.com/xu-ux/mall-mogujie.git
+git clone --depth 1 -b dev https://github.com/xu-ux/mall-mogujie.git
 ```
 
 安装
