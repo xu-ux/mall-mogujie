@@ -24,7 +24,7 @@ jobs: # 工作流
         run: npm install
 
       - name: Build
-        run:  npm run build:prod
+        run:  npm run build:test # 使用mock数据
 
       # https://github.com/marketplace/actions/github-pages-action
       - name: Deploy
