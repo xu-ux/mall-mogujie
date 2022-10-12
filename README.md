@@ -47,3 +47,23 @@ npm run build:prod
 ```
 
 ❗ test环境使用的是mock数据 `npm run test`
+
+
+
+## 截图
+
+首页
+
+<img src="images.assets/image-20221012110656066.png" alt="image-20221012110656066" style="zoom: 25%;" />
+
+详情
+
+<img src="images.assets/image-20221012111046463.png" alt="image-20221012111046463" style="zoom:25%;" />
+
+分类
+
+<img src="images.assets/image-20221012111001621.png" alt="image-20221012111001621" style="zoom:25%;" />
+
+购物车
+
+<img src="images.assets/image-20221012111134755.png" alt="image-20221012111134755" style="zoom:25%;" />

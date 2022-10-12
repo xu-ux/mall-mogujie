@@ -116,7 +116,7 @@ export default {
 
     },
     activated() {
-        console.log("home activated")
+        // console.log("home activated")
         // 局部更新dom
         this.$nextTick(() => {
             this.$refs.myscroller.resize()

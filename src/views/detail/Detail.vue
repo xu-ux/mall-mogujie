@@ -165,17 +165,17 @@ export default {
         this.setNavPosition = debounce(() => {
 
             this.navPosition = [],
-                this.navPosition.push(0) // 商品主体模块，默认0
+            this.navPosition.push(0) // 商品主体模块，默认0
             this.navPosition.push(this.$refs.params.$el.offsetTop) // 参数模块
             this.navPosition.push(this.$refs.comment.$el.offsetTop) // 评论模块
             this.navPosition.push(this.$refs.recommend.$el.offsetTop) // 推荐模块 
-            console.log(this.navPosition)
+            // console.log(this.navPosition)
 
         }, 500)
 
         // 监听事件总线中的，图片是否已经加载好了，加载完成则对navPosition赋值
         this.$bus.$on(DETAIL_IMG_LOAD, () => {
-            // 因为图片加载只发送一次时间，所以混入代码被注释了
+            // 图片加载只发送一次
             // this.$refs.scroll.refresh()
             this.setNavPosition()
         })
@@ -224,12 +224,9 @@ export default {
             
         },
         hideModal() {
-            console.log("取消")
             this.showModal = false
         },
         submit() {
-            console.log("提交")
-
             // 获取商品在购物车需要展示的信息
             const product = {}
             product.image = this.topImages[0]
