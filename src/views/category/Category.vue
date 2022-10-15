@@ -62,8 +62,8 @@ export default {
 
                 this.getSubCategory(this.maitKey)
 
-                setTimeout(()=>{this.$refs.mainCategory.refresh()},200)
-                setTimeout(()=>{this.$refs.subCategory.refresh()},200)
+                setTimeout(()=>{this.$refs.mainCategory.refresh()},500)
+                setTimeout(()=>{this.$refs.subCategory.refresh()},1000)
             }
             
 
