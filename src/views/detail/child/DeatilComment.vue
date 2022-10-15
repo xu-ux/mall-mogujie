@@ -60,7 +60,7 @@
 
 .detail-comment {
     $padding-left: .5rem;
-    $padding-right: .5rem; 
+    $padding-right: .5rem;
 
     border-bottom: 0.5rem solid rgb(242, 242, 242);
 
@@ -114,7 +114,7 @@
                 max-height: 6rem;
                 width: 100%;
                 height: 100%;
-                
+
             }
         }
 
